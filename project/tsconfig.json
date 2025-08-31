@@ -15,5 +15,9 @@
     "incremental": true,
     "skipLibCheck": true,
     "strict": true
-  }
+  },
+  "include": [
+    "src",                       // your NestJS source
+    "node_modules/.prisma/client" // Prisma generated types
+  ]
 }
